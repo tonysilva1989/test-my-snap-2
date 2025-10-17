@@ -4,7 +4,6 @@
 
 name: Snap Build
 on:
-  workflow_call: 
   pull_request: # Triggers the workflow on pull requests targeting the main branch
                 # It ensures builds will happen for every PR.
     types: [opened, synchronize, reopened]
