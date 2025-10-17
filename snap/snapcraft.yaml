@@ -1,0 +1,24 @@
+name: tonysilva1989-s4mp1e-hello
+base: core24
+version: "0.1"
+summary: Simple Hello Snap
+description: |
+  teste
+grade: stable
+confinement: strict
+apps:
+  hello:
+    command: bin/hello.sh
+parts:
+  hello:
+    plugin: dump
+    source: src/
+    organize: 
+        hello.sh: bin/hello.sh 
+
+
+
+
+
+
+# nada
